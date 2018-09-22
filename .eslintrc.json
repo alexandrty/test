@@ -1,0 +1,41 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "rules": {
+    "semi": ["off"],
+    "quotes": ["error", "single"],
+    "no-plusplus": ["off"],
+    "indent": ["error", 4],
+    "no-nested-ternary": ["off"],
+    "eol-last": ["off"],
+    "comma-dangle": ["off", "never"],
+    "no-underscore-dangle": ["off", "never"],
+    "no-class-assign": ["off"],
+    "one-var": ["off"],
+    "class-methods-use-this": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "react/jsx-closing-tag-location": ["off"],
+    "react/no-multi-comp": ["off"],
+    "react/jsx-indent": ["off"],
+    "react/jsx-indent-props": ["off"],
+    "react/no-string-refs": ["off"],
+    "jsx-a11y/anchor-is-valid": ["off"],
+    "jsx-a11y/no-static-element-interactions": ["off"],
+    "jsx-a11y/click-events-have-key-events": ["off"],
+    "jsx-a11y/no-noninteractive-element-interactions": ["off"],
+    "jsx-a11y/label-has-for": ["off"],
+    "import/extensions": ["off"],
+    "import/no-unresolved": ["off"],
+    "no-bitwise": ["error", { "allow": ["~"] }],
+    "no-unused-expressions": ["off"],
+    "no-undef": ["off"],
+    "no-tabs": ["off"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [1, { "ignorePureComponents": true}],
+    "no-param-reassign": ["off"]
+  }
+}
