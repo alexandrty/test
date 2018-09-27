@@ -6,10 +6,10 @@
     "import"
   ],
   "rules": {
+    "indent": ["error", 4],
     "semi": ["off"],
     "quotes": ["error", "single"],
     "no-plusplus": ["off"],
-    "indent": ["error", 4],
     "no-nested-ternary": ["off"],
     "eol-last": ["off"],
     "comma-dangle": ["off", "never"],
