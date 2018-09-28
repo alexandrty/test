@@ -20,7 +20,7 @@ const issueReducer = (state = {
             ...state,
             issuesList: [...state.issuesList.map(item => (
                 item.id === action.payload
-                    ? { id: item.id, title: item.title, state: 'closed' } : item
+                    ? { ...item, state: 'closed' } : item
             ))]
         }
         break
